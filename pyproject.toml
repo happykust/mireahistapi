@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mireahistapi"
+version = "0.1.0"
+description = ""
+authors = ["kustiktmkirill <happykust@list.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.89.1"
+uvicorn = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
